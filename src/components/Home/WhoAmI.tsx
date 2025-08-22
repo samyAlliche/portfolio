@@ -23,6 +23,7 @@ const WhoAmI = () => {
             showCursor={cursorOneVisible}
             cursorCharacter="|"
             onSentenceComplete={() => handleTextType()}
+            textColors={["var(--foreground)"]}
           />
         </h1>
         <h1
@@ -38,6 +39,7 @@ const WhoAmI = () => {
             showCursor={true}
             cursorCharacter="|"
             initialDelay={1100}
+            textColors={["var(--foreground)"]}
           />
         </h1>
       </div>
