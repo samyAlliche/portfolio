@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React, { useEffect, useRef, useCallback, useMemo } from "react";
@@ -73,9 +74,9 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
   title = "Full Stack Developer",
   handle = "samyAlliche",
   status = "Ready to work",
-  contactText = "Hire Me",
+  //contactText = "Hire Me",
   showUserInfo = true,
-  onContactClick,
+  // onContactClick,
 }) => {
   const wrapRef = useRef<HTMLDivElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
@@ -308,16 +309,16 @@ const ProfileCardComponent: React.FC<ProfileCardProps> = ({
         "--icon": iconUrl ? `url(${iconUrl})` : "none",
         "--grain": grainUrl ? `url(${grainUrl})` : "none",
         "--behind-gradient": showBehindGradient
-          ? behindGradient ?? DEFAULT_BEHIND_GRADIENT
+          ? (behindGradient ?? DEFAULT_BEHIND_GRADIENT)
           : "none",
         "--inner-gradient": innerGradient ?? DEFAULT_INNER_GRADIENT,
-      } as React.CSSProperties),
+      }) as React.CSSProperties,
     [iconUrl, grainUrl, showBehindGradient, behindGradient, innerGradient]
   );
 
-  const handleContactClick = useCallback(() => {
-    onContactClick?.();
-  }, [onContactClick]);
+  // const handleContactClick = useCallback(() => {
+  //   onContactClick?.();
+  // }, [onContactClick]);
 
   return (
     <div
