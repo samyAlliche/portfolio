@@ -1,0 +1,254 @@
+[
+  {
+    "slug": "html",
+    "name": "HTML",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Built my first static sites at school; now daily use across all web projects."
+  },
+  {
+    "slug": "css",
+    "name": "CSS",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Love it but switched to TailwindCSS. I'll never forget you CSS. I still know my way around it"
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Learned it at school. Switched to Typescript a couple years ago for more type-safe operations."
+  },
+  {
+    "slug": "typescript",
+    "name": "TypeScript",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2023,
+    "lastUsed": 2025,
+    "story": "Adopted during my internship on a Next.js + GraphQL stack; now my default for all new projects."
+  },
+  {
+    "slug": "react",
+    "name": "React.js",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2021,
+    "lastUsed": 2025,
+    "story": "My main front-end framework for building interactive UIs — used in most of my projects with Next.js. Experienced with hooks, context, and modern patterns."
+  },
+  {
+    "slug": "nextjs",
+    "name": "Next.js",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2022,
+    "lastUsed": 2025,
+    "story": "Used for most of my web projects and even this portfolio (App Router, SSG/ISR, API routes)."
+  },
+  {
+    "slug": "vite",
+    "name": "Vite.js",
+    "category": "frontend",
+    "level": "familiar",
+    "since": 2024,
+    "lastUsed": 2025,
+    "story": "Used for a couple small projects."
+  },
+  {
+    "slug": "tailwindcss",
+    "name": "TailwindCSS",
+    "category": "frontend",
+    "level": "proficient",
+    "since": 2022,
+    "lastUsed": 2025,
+    "story": "My go-to styling approach for fast iteration and consistent design systems."
+  },
+  {
+    "slug": "nodejs",
+    "name": "Node.js",
+    "category": "backend",
+    "level": "proficient",
+    "since": 2020,
+    "lastUsed": 2025,
+    "story": "APIs, CLI tooling, and server-side rendering in Next.js projects."
+  },
+  {
+    "slug": "express",
+    "name": "Express.js",
+    "category": "backend",
+    "level": "proficient",
+    "since": 2020,
+    "lastUsed": 2025,
+    "story": "Built REST APIs and small services; familiar with middleware and auth basics."
+  },
+  {
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "category": "backend",
+    "level": "proficient",
+    "since": 2020,
+    "lastUsed": 2025,
+    "story": "Primary relational DB during studies and projects; comfortable with schema design and SQL."
+  },
+  {
+    "slug": "graphql",
+    "name": "GraphQL",
+    "category": "backend",
+    "level": "familiar",
+    "since": 2023,
+    "lastUsed": 2025,
+    "story": "Used it my internship at Embie, using Hasura"
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "category": "backend",
+    "level": "intermediate",
+    "since": 2021,
+    "lastUsed": 2025,
+    "story": "Used it at school while learning React, built a few small projects."
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "category": "backend",
+    "level": "familiar",
+    "since": 2024,
+    "lastUsed": 2025,
+    "story": "Used it for most of my side projects and prototypes."
+  },
+  {
+    "slug": "java",
+    "name": "Java",
+    "category": "backend",
+    "level": "proficient",
+    "since": 2018,
+    "lastUsed": 2024,
+    "story": "First language I've ever learned; used extensively in coursework and school projects. Learned most of my programming fundamentals through it, even learned most design patterns through it. "
+  },
+  {
+    "slug": "spring-boot",
+    "name": "Spring Boot",
+    "category": "backend",
+    "level": "intermediate",
+    "since": 2022,
+    "lastUsed": 2023,
+    "story": "Learned it at school. During my class we used it to create a simple store web application."
+  },
+  {
+    "slug": "c",
+    "name": "C",
+    "category": "backend",
+    "level": "familiar",
+    "since": 2019,
+    "lastUsed": 2024,
+    "story": "Systems programming fundamentals from coursework (memory, pointers, scripting, systems calls)."
+  },
+  {
+    "slug": "csharp",
+    "name": "C#",
+    "category": "backend",
+    "level": "familiar",
+    "since": 2024,
+    "lastUsed": 2024,
+    "story": "Explored through .NET coursework and while learning Unity at school."
+  },
+  {
+    "slug": "dotnet",
+    "name": ".NET",
+    "category": "backend",
+    "level": "intermediate",
+    "since": 2024,
+    "lastUsed": 2025,
+    "story": "Learned at school; built small services and learned ecosystem basics."
+  },
+  {
+    "slug": "unity",
+    "name": "Unity",
+    "category": "other",
+    "level": "intermediate",
+    "since": 2020,
+    "lastUsed": 2023,
+    "story": "Learned at school. We even participated in a Game Jam, which was a great experience. You can find the game in the project section"
+  },
+  {
+    "slug": "flutter",
+    "name": "Flutter",
+    "category": "mobile",
+    "level": "familiar",
+    "since": 2020,
+    "lastUsed": 2023,
+    "story": "Learned it at school."
+  },
+  {
+    "slug": "swift",
+    "name": "Swift",
+    "category": "mobile",
+    "level": "learning",
+    "since": 2025,
+    "lastUsed": 2025,
+    "story": "Built a mobile game for fun and a small Macos utility with SwiftUI. Currently learning more about it."
+  },
+  {
+    "slug": "linux",
+    "name": "Linux",
+    "category": "other",
+    "level": "intermediate",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Daily dev environment knowledge: shell, package managers, and basic operations."
+  },
+  {
+    "slug": "git",
+    "name": "Git",
+    "category": "other",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Everyday version control: branching, PRs, and rebasing."
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "category": "other",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "Issues, Actions, and project management for personal and team work."
+  },
+  {
+    "slug": "vscode",
+    "name": "VSCode",
+    "category": "other",
+    "level": "proficient",
+    "since": 2019,
+    "lastUsed": 2025,
+    "story": "My primary editor, no surprises."
+  },
+  {
+    "slug": "framer-motion",
+    "name": "Framer Motion",
+    "category": "frontend",
+    "level": "intermediate",
+    "since": 2024,
+    "lastUsed": 2025,
+    "story": "My go-to for smooth UI animations and micro‑interactions in React/Next.js."
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "other",
+    "level": "intermediate",
+    "since": 2022,
+    "lastUsed": 2025,
+    "story": "Always use it to mock up my projects and structure my ideas before I start the production."
+  }
+]

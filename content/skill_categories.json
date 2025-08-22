@@ -1,0 +1,6 @@
+[
+  { "slug": "frontend", "name": "Frontend", "color": "#22C55E" },
+  { "slug": "backend", "name": "Backend", "color": "#3B82F6" },
+  { "slug": "mobile", "name": "Mobile", "color": "#DE5971" },
+  { "slug": "other", "name": "Other", "color": "#A855F7" }
+]

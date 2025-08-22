@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "mashup",
+    "title": "mash-up",
+    "year": 2025,
+    "skills": [
+      "typescript",
+      "nextjs",
+      "tailwindcss",
+      "supabase",
+      "framer-motion",
+      "figma"
+    ],
+    "summary": "mash-up is a music discovery web app that finds the best matching tracks for a reference song. It integrates with Spotify and AcousticBrainz to analyze BPM, key, and other audio features, then suggests compatible tracks.",
+    "screenshot": "/screenshots/mashup.png",
+    "link": "https://mashup.twxntytwo.com/"
+  },
+  {
+    "slug": "shreddboard",
+    "title": "ShreddBoard",
+    "year": 2024,
+    "skills": ["typescript", "react", "tailwindcss", "nodejs", "express"],
+    "summary": "A minimal sticky-note application with shredding animation. Fast drag-and-drop, keyboard shortcuts, and persistent state.",
+    "screenshot": "/screenshots/shreddboard.png"
+  },
+  {
+    "slug": "yolk",
+    "title": "Yolk",
+    "year": 2024,
+    "skills": ["vite", "typescript", "tailwindcss", "react"],
+    "summary": "Playful boiled‑egg timer microsite. Each recipe is a different cooking time with smooth micro‑interactions and accessibility built in.",
+    "screenshot": "/screenshots/yolk.png",
+    "link": "https://yolk.twxntytwo.com/"
+  },
+  {
+    "slug": "metronawm",
+    "title": "metronawm",
+    "year": 2023,
+    "skills": ["javascript", "html", "css"],
+    "summary": "just a metronome web app",
+    "screenshot": "/screenshots/metronawm.png",
+    "link": "https://metronawm.twxntytwo.com/"
+  },
+  {
+    "slug": "dark-spark",
+    "title": "Dark Spark",
+    "year": 2022,
+    "skills": ["unity", "csharp"],
+    "summary": "A platformer game built for a Game Jam. Each time the hero is hit by an enemy, their torchlight weakens, reducing vision. To regain light (and health), the player must reach a fireplace. The hero starts with five torch charges.",
+    "screenshot": "/screenshots/dark-spark.png",
+    "link": "https://itch.io/jam/ipl-game-jam-2021/rate/1266503"
+  }
+]
