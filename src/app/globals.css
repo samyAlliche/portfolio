@@ -20,8 +20,8 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: #191919; /* original */
-  --foreground: #ededed; /* original */
+  --background: #191919;
+  --foreground: #ededed;
   --radius: 0.625rem;
 
   --card: var(--background);
@@ -61,6 +61,11 @@
   --sidebar-accent-foreground: var(--accent-foreground);
   --sidebar-border: var(--border);
   --sidebar-ring: var(--ring);
+}
+
+[data-theme="dark"] {
+  --background: #ededed;
+  --foreground: #191919;
 }
 
 @media (prefers-color-scheme: light) {

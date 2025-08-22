@@ -6,6 +6,7 @@ import ProjectList from "@/components/Projects/ProjectList";
 import AboutMeContent from "@/components/About/AboutMeContent";
 import LocalClock from "@/components/LocalClock";
 import ContactContent from "@/components/Contact/ContactContent";
+import { ThemeToggle } from "@/components/ToggleDarkMode";
 export default function Home() {
   const skills = loadSkills();
   const skillCategories = loadSkillCategories();
@@ -17,7 +18,9 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-2 pb-10 gap-12 sm:px-10 lg:px-12 2xl:px-18 w-full">
       <header className="sticky top-1 z-[9999] flex justify-center">
         <div className="relative w-full pointer-events-auto flex justify-between items-center">
-          <div className="flex-1"></div>
+          <div className="sm:flex flex-1 justify-start hidden">
+            <ThemeToggle />
+          </div>
           <div className="flex justify-center">
             <PillNav
               items={[
