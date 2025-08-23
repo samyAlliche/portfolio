@@ -158,9 +158,66 @@ const LocalClock: React.FC<LocalClockProps> = ({
         displace={3}
       >
         <div
-          className="flex flex-col w-full justify-center items-center"
+          className="sm:flex flex-col w-full justify-center items-center hidden"
           onMouseEnter={() => setIsHovered(true)}
           onMouseLeave={() => setIsHovered(false)}
+          style={{ minHeight: "40px" }}
+        >
+          <AnimatePresence mode="wait" initial={false}>
+            {!isHovered ? (
+              <motion.div
+                key="time"
+                className={[
+                  "flex items-center gap-3 font-mono p-3",
+                  className ?? "",
+                ].join(" ")}
+                aria-label="Belgium local time (Europe/Brussels)"
+                initial={{ y: 30 }}
+                animate={{ y: 0 }}
+                exit={{ y: -30 }}
+                transition={springTransition}
+              >
+                <div
+                  className="tabular-nums text-foreground text-sm flex items-center"
+                  style={{ lineHeight: 1 }}
+                >
+                  <AnimatedTimeSegment value={hour} height={animationHeight} />
+                  <span className="mx-0.5">:</span>
+                  <AnimatedTimeSegment
+                    value={minute}
+                    height={animationHeight}
+                  />
+                  {showSeconds && (
+                    <>
+                      <span className="mx-0.5">:</span>
+                      <AnimatedTimeSegment
+                        value={second}
+                        height={animationHeight}
+                      />
+                    </>
+                  )}
+                </div>
+                <span className="text-muted-foreground text-xs">
+                  Brussels, BE
+                </span>
+              </motion.div>
+            ) : (
+              <motion.span
+                key="date"
+                initial={{ y: 30 }}
+                animate={{ y: 0 }}
+                exit={{ y: -30 }}
+                transition={springTransition}
+                className="text-muted-foreground px-3 font-mono w-full justify-center text-sm"
+              >
+                🗓️ {date}
+              </motion.span>
+            )}
+          </AnimatePresence>
+        </div>
+        <div
+          className="flex flex-col w-full justify-center items-center sm:hidden"
+          onClick={() => setIsHovered(!isHovered)}
           style={{ minHeight: "40px" }}
         >
           <AnimatePresence mode="wait" initial={false}>
