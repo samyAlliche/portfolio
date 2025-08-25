@@ -1,5 +1,21 @@
 [
   {
+    "slug": "deepcut",
+    "title": "Deepcut",
+    "year": 2025,
+    "skills": [
+      "typescript",
+      "nextjs",
+      "tailwindcss",
+      "framer-motion",
+      "postgresql",
+      "figma"
+    ],
+    "summary": "Deepcut is a web API and interface that lets users discover random YouTube videos from curated playlists — perfect for finding new samples, inspiration, or tracks by chance.",
+    "screenshot": "/screenshots/deepcut.png",
+    "link": "https://deepcut.twxntytwo.com/"
+  },
+  {
     "slug": "mashup",
     "title": "mash-up",
     "year": 2025,
