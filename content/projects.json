@@ -9,6 +9,7 @@
       "tailwindcss",
       "framer-motion",
       "postgresql",
+      "nodejs",
       "figma"
     ],
     "summary": "Deepcut is a web API and interface that lets users discover random YouTube videos from curated playlists — perfect for finding new samples, inspiration, or tracks by chance.",
