@@ -24,7 +24,12 @@ const SkillList: React.FC<SkillListProps> = ({
   >();
 
   return (
-    <div className="flex flex-col gap-4 border-2 p-4 rounded-3xl relative">
+    <motion.div
+      className="flex flex-col gap-4 border-2 p-4 rounded-3xl relative"
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5, delay: 1, ease: "easeOut" }}
+    >
       <h3 className="font-bold text-lg bg-background -top-4 absolute left-7 px-2">
         my skillset
       </h3>
@@ -105,7 +110,7 @@ const SkillList: React.FC<SkillListProps> = ({
           </AnimatePresence>
         </motion.div>
       </LayoutGroup>
-    </div>
+    </motion.div>
   );
 };
 

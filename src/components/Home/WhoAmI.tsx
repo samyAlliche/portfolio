@@ -48,6 +48,9 @@ const WhoAmI = () => {
           <motion.h3
             className="flex items-center gap-2 text-lg xl:text-xl"
             layout
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
           >
             <motion.span
               layout
@@ -81,7 +84,12 @@ const WhoAmI = () => {
             </motion.span>
           </motion.h3>
         </LayoutGroup>
-        <p className="">
+        <motion.p
+          className=""
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.5, ease: "easeOut" }}
+        >
           I&apos;m a recent{" "}
           <span className="font-black">Computer Science graduate</span> and full
           stack developer with{" "}
@@ -89,7 +97,7 @@ const WhoAmI = () => {
           modern web applications. Quick to learn, adaptable, and motivated to
           contribute to meaningful digital products in a collaborative
           environment.
-        </p>
+        </motion.p>
       </div>
     </div>
   );

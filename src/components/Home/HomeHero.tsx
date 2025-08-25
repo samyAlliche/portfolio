@@ -5,6 +5,7 @@ import ProfileCard from "@/components/ProfileCard/ProfileCard";
 import WhoAmI from "./WhoAmI";
 import SkillList, { SkillListProps } from "../Skills/SkillList";
 import HireMeButtons from "./HireMeButtons";
+import { motion } from "framer-motion";
 
 const HomeHero: React.FC<SkillListProps> = ({
   skills,
@@ -24,7 +25,12 @@ const HomeHero: React.FC<SkillListProps> = ({
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-full gap-7">
+      <motion.div
+        className="flex flex-col justify-center items-center w-full gap-7"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, delay: 1.5, ease: "easeOut" }}
+      >
         <ProfileCard
           avatarUrl="/image.png"
           grainUrl="/grain.webp"
@@ -36,7 +42,7 @@ const HomeHero: React.FC<SkillListProps> = ({
           onContactClick={() => console.log("Contact clicked")}
         />
         <HireMeButtons />
-      </div>
+      </motion.div>
     </div>
   );
 };
