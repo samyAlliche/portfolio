@@ -9,6 +9,7 @@
       "tailwindcss",
       "framer-motion",
       "postgresql",
+      "prisma",
       "nodejs",
       "figma"
     ],

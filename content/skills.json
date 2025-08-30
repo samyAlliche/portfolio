@@ -250,5 +250,14 @@
     "since": 2022,
     "lastUsed": 2025,
     "story": "Always use it to mock up my projects and structure my ideas before I start the production."
+  },
+  {
+    "slug": "prisma",
+    "name": "Prisma",
+    "category": "other",
+    "level": "familiar",
+    "since": 2025,
+    "lastUsed": 2025,
+    "story": "Familiar with using Prisma with PostgreSQL for database access in my applications."
   }
 ]
