@@ -17,11 +17,12 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-@custom-variant dark (&:is(.dark *));
+@custom-variant dark (&:is([data-theme="dark"] *));
 
+/* light */
 :root {
-  --background: #191919;
-  --foreground: #ededed;
+  --background: #ededed;
+  --foreground: #191919;
   --radius: 0.625rem;
 
   --card: var(--background);
@@ -32,13 +33,13 @@
   --primary: var(--foreground);
   --primary-foreground: var(--background);
 
-  --secondary: color-mix(in oklch, var(--foreground) 10%, var(--background));
+  --secondary: color-mix(in oklch, var(--foreground) 8%, var(--background));
   --secondary-foreground: var(--foreground);
 
-  --muted: color-mix(in oklch, var(--foreground) 8%, var(--background));
-  --muted-foreground: color-mix(in oklch, var(--foreground) 60%, black);
+  --muted: color-mix(in oklch, var(--foreground) 3%, var(--background));
+  --muted-foreground: color-mix(in oklch, var(--foreground) 55%, black);
 
-  --accent: color-mix(in oklch, var(--foreground) 12%, var(--background));
+  --accent: color-mix(in oklch, var(--foreground) 10%, var(--background));
   --accent-foreground: var(--foreground);
 
   --destructive: oklch(0.577 0.245 27.325);
@@ -63,48 +64,46 @@
   --sidebar-ring: var(--ring);
 }
 
+/* dark */
 [data-theme="dark"] {
-  --background: #ededed;
-  --foreground: #191919;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background: #ededed;
-    --foreground: #191919;
-
-    /* Recompute derived tokens for light */
-    --card: var(--background);
-    --card-foreground: var(--foreground);
-    --popover: var(--background);
-    --popover-foreground: var(--foreground);
-    --primary: var(--foreground);
-    --primary-foreground: var(--background);
-    --secondary: color-mix(in oklch, var(--foreground) 8%, var(--background));
-    --secondary-foreground: var(--foreground);
-    --muted: color-mix(in oklch, var(--foreground) 6%, var(--background));
-    --muted-foreground: color-mix(in oklch, var(--foreground) 55%, black);
-    --accent: color-mix(in oklch, var(--foreground) 10%, var(--background));
-    --accent-foreground: var(--foreground);
-    --border: color-mix(in oklch, var(--foreground) 12%, transparent);
-    --input: color-mix(in oklch, var(--foreground) 12%, transparent);
-    --ring: color-mix(in oklch, var(--foreground) 45%, transparent);
-
-    --sidebar: var(--background);
-    --sidebar-foreground: var(--foreground);
-    --sidebar-primary: var(--primary);
-    --sidebar-primary-foreground: var(--primary-foreground);
-    --sidebar-accent: var(--accent);
-    --sidebar-accent-foreground: var(--accent-foreground);
-    --sidebar-border: var(--border);
-    --sidebar-ring: var(--ring);
-  }
-}
-
-/* (for shadcn) */
-.dark {
   --background: #191919;
   --foreground: #ededed;
+
+  --card: var(--background);
+  --card-foreground: var(--foreground);
+  --popover: var(--background);
+  --popover-foreground: var(--foreground);
+
+  --primary: var(--foreground);
+  --primary-foreground: var(--background);
+
+  --secondary: color-mix(in oklch, var(--foreground) 10%, var(--background));
+  --secondary-foreground: var(--foreground);
+
+  --muted: color-mix(in oklch, var(--foreground) 8%, var(--background));
+  --muted-foreground: color-mix(in oklch, var(--foreground) 60%, black);
+
+  --accent: color-mix(in oklch, var(--foreground) 12%, var(--background));
+  --accent-foreground: var(--foreground);
+
+  --border: color-mix(in oklch, var(--foreground) 12%, transparent);
+  --input: color-mix(in oklch, var(--foreground) 12%, transparent);
+  --ring: color-mix(in oklch, var(--foreground) 45%, transparent);
+
+  --chart-1: color-mix(in oklch, var(--foreground) 35%, var(--background));
+  --chart-2: color-mix(in oklch, var(--foreground) 28%, var(--background));
+  --chart-3: color-mix(in oklch, var(--foreground) 22%, var(--background));
+  --chart-4: color-mix(in oklch, var(--foreground) 18%, var(--background));
+  --chart-5: color-mix(in oklch, var(--foreground) 14%, var(--background));
+
+  --sidebar: var(--background);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--accent);
+  --sidebar-accent-foreground: var(--accent-foreground);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
 }
 
 /* Tailwind theme mapping (keeps your font vars and exposes tokens) */

@@ -21,7 +21,7 @@ export function ThemeToggle() {
       variant={"ghost"}
       size={"lg"}
     >
-      {current === "dark" ? (
+      {current === "light" ? (
         <MoonIcon className="h-10 w-10" />
       ) : (
         <SunIcon className="h-10 w-10" />
