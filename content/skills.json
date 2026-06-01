@@ -5,7 +5,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Built my first static sites at school; now daily use across all web projects."
   },
   {
@@ -14,7 +14,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Love it but switched to TailwindCSS. I'll never forget you CSS. I still know my way around it"
   },
   {
@@ -23,7 +23,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Learned it at school. Switched to Typescript a couple years ago for more type-safe operations."
   },
   {
@@ -32,7 +32,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2023,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Adopted during my internship on a Next.js + GraphQL stack; now my default for all new projects."
   },
   {
@@ -41,7 +41,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2021,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "My main front-end framework for building interactive UIs — used in most of my projects with Next.js. Experienced with hooks, context, and modern patterns."
   },
   {
@@ -50,7 +50,7 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2022,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Used for most of my web projects and even this portfolio (App Router, SSG/ISR, API routes)."
   },
   {
@@ -59,7 +59,7 @@
     "category": "frontend",
     "level": "familiar",
     "since": 2024,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Used for a couple small projects."
   },
   {
@@ -68,8 +68,17 @@
     "category": "frontend",
     "level": "proficient",
     "since": 2022,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "My go-to styling approach for fast iteration and consistent design systems."
+  },
+  {
+    "slug": "framer-motion",
+    "name": "Framer Motion",
+    "category": "frontend",
+    "level": "intermediate",
+    "since": 2024,
+    "lastUsed": 2026,
+    "story": "My go-to for smooth UI animations and micro‑interactions in React/Next.js."
   },
   {
     "slug": "nodejs",
@@ -77,7 +86,7 @@
     "category": "backend",
     "level": "proficient",
     "since": 2020,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "APIs, CLI tooling, and server-side rendering in Next.js projects."
   },
   {
@@ -95,7 +104,7 @@
     "category": "backend",
     "level": "proficient",
     "since": 2020,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Primary relational DB during studies and projects; comfortable with schema design and SQL."
   },
   {
@@ -122,8 +131,17 @@
     "category": "backend",
     "level": "familiar",
     "since": 2024,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Used it for most of my side projects and prototypes."
+  },
+  {
+    "slug": "sanity",
+    "name": "Sanity",
+    "category": "backend",
+    "level": "intermediate",
+    "since": 2025,
+    "lastUsed": 2026,
+    "story": "Used it to build a custom CMS-backed portfolio site for a client/handled content modelling, GROQ queries, and live preview."
   },
   {
     "slug": "java",
@@ -132,7 +150,7 @@
     "level": "proficient",
     "since": 2018,
     "lastUsed": 2024,
-    "story": "First language I've ever learned; used extensively in coursework and school projects. Learned most of my programming fundamentals through it, even learned most design patterns through it. "
+    "story": "First language I've ever learned; used extensively in coursework and school projects. Learned most of my programming fundamentals through it, even learned most design patterns through it."
   },
   {
     "slug": "spring-boot",
@@ -180,22 +198,13 @@
     "story": "Learned at school. We even participated in a Game Jam, which was a great experience. You can find the game in the project section"
   },
   {
-    "slug": "flutter",
-    "name": "Flutter",
-    "category": "mobile",
-    "level": "familiar",
-    "since": 2020,
-    "lastUsed": 2023,
-    "story": "Learned it at school."
-  },
-  {
     "slug": "swift",
-    "name": "Swift",
+    "name": "SwiftUI",
     "category": "mobile",
     "level": "learning",
     "since": 2025,
-    "lastUsed": 2025,
-    "story": "Built a mobile game for fun and a small Macos utility with SwiftUI. Currently learning more about it."
+    "lastUsed": 2026,
+    "story": "Built a mobile game for fun and a small macOS utility. Currently learning more about it."
   },
   {
     "slug": "linux",
@@ -203,7 +212,7 @@
     "category": "other",
     "level": "intermediate",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Daily dev environment knowledge: shell, package managers, and basic operations."
   },
   {
@@ -212,7 +221,7 @@
     "category": "other",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Everyday version control: branching, PRs, and rebasing."
   },
   {
@@ -221,7 +230,7 @@
     "category": "other",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Issues, Actions, and project management for personal and team work."
   },
   {
@@ -230,17 +239,8 @@
     "category": "other",
     "level": "proficient",
     "since": 2019,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "My primary editor, no surprises."
-  },
-  {
-    "slug": "framer-motion",
-    "name": "Framer Motion",
-    "category": "frontend",
-    "level": "intermediate",
-    "since": 2024,
-    "lastUsed": 2025,
-    "story": "My go-to for smooth UI animations and micro‑interactions in React/Next.js."
   },
   {
     "slug": "figma",
@@ -248,7 +248,7 @@
     "category": "other",
     "level": "intermediate",
     "since": 2022,
-    "lastUsed": 2025,
+    "lastUsed": 2026,
     "story": "Always use it to mock up my projects and structure my ideas before I start the production."
   },
   {
@@ -259,5 +259,41 @@
     "since": 2025,
     "lastUsed": 2025,
     "story": "Familiar with using Prisma with PostgreSQL for database access in my applications."
+  },
+  {
+    "slug": "vmware",
+    "name": "VMware",
+    "category": "other",
+    "level": "intermediate",
+    "since": 2026,
+    "lastUsed": 2026,
+    "story": "Used for virtualisation labs, managing VMs, snapshots, and networking with VMware Workstation and ESXi basics as a part of my Virtualization coursework."
+  },
+  {
+    "slug": "hyperv",
+    "name": "Hyper-V",
+    "category": "other",
+    "level": "familiar",
+    "since": 2026,
+    "lastUsed": 2026,
+    "story": "Set up and managed Hyper-V VMs as part of my Virtualization coursework."
+  },
+  {
+    "slug": "windows-server",
+    "name": "Windows Server",
+    "category": "other",
+    "level": "familiar",
+    "since": 2025,
+    "lastUsed": 2026,
+    "story": "Configured Active Directory, group policies, and basic server roles during my Virtualization coursework."
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "category": "other",
+    "level": "intermediate",
+    "since": 2025,
+    "lastUsed": 2026,
+    "story": "Using agentic AI workflows to speed up development. From scaffolding to shipping."
   }
 ]

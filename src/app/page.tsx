@@ -12,7 +12,7 @@ export default function Home() {
   const skillCategories = loadSkillCategories();
   const projects = loadProjects();
 
-  const sectionTitleClass = "text-5xl font-bold uppercase";
+  const sectionTitleClass = "text-4xl font-extrabold uppercase";
 
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] min-h-screen p-2 pb-10 gap-12 sm:px-10 lg:px-12 2xl:px-18 w-full">

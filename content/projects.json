@@ -1,5 +1,21 @@
 [
   {
+    "slug": "mashup",
+    "title": "mashup",
+    "year": 2025,
+    "skills": [
+      "typescript",
+      "nextjs",
+      "tailwindcss",
+      "supabase",
+      "framer-motion",
+      "figma"
+    ],
+    "summary": "mashup is a music discovery web app that finds the best matching tracks for a reference song. It integrates with Spotify and AcousticBrainz to analyze BPM, key, and other audio features, then suggests compatible tracks.",
+    "screenshot": "/screenshots/mashup.png",
+    "link": "https://mashup.twxntytwo.com/"
+  },
+  {
     "slug": "deepcut",
     "title": "Deepcut",
     "year": 2025,
@@ -18,28 +34,37 @@
     "link": "https://deepcut.twxntytwo.com/"
   },
   {
-    "slug": "mashup",
-    "title": "mash-up",
-    "year": 2025,
+    "slug": "twxntytwo",
+    "title": "twxntytwo - artist portfolio",
+    "year": 2026,
     "skills": [
       "typescript",
       "nextjs",
       "tailwindcss",
-      "supabase",
       "framer-motion",
-      "figma"
+      "figma",
+      "claude-code"
     ],
-    "summary": "mash-up is a music discovery web app that finds the best matching tracks for a reference song. It integrates with Spotify and AcousticBrainz to analyze BPM, key, and other audio features, then suggests compatible tracks.",
-    "screenshot": "/screenshots/mashup.png",
-    "link": "https://mashup.twxntytwo.com/"
+    "summary": "Artist portfolio — built from design to deployment, workflow assisted by Claude Code.",
+    "screenshot": "/screenshots/twxntytwo.png",
+    "link": "https://twxntytwo.com/"
   },
   {
-    "slug": "shreddboard",
-    "title": "ShreddBoard",
-    "year": 2024,
-    "skills": ["typescript", "react", "tailwindcss", "nodejs", "express"],
-    "summary": "A minimal sticky-note application with shredding animation. Fast drag-and-drop, keyboard shortcuts, and persistent state.",
-    "screenshot": "/screenshots/shreddboard.png"
+    "slug": "chrisuptown",
+    "title": "CHRISUPTOWN - artist portfolio",
+    "year": 2026,
+    "skills": [
+      "typescript",
+      "nextjs",
+      "tailwindcss",
+      "sanity",
+      "framer-motion",
+      "figma",
+      "claude-code"
+    ],
+    "summary": "Custom artist portfolio delivered for a client, from design to go-live. Content managed via Sanity CMS, full deployment pipeline. Workflow assisted by Claude Code.",
+    "screenshot": "/screenshots/chrisuptown.png",
+    "link": "https://chrisuptown.com/"
   },
   {
     "slug": "yolk",
