@@ -1,5 +1,21 @@
 [
   {
+    "slug": "disque",
+    "title": "Disque",
+    "year": 2026,
+    "skills": [
+      "swift",
+      "typescript",
+      "nextjs",
+      "tailwindcss",
+      "framer-motion",
+      "claude-code"
+    ],
+    "summary": "Disque is an iOS music player that treats your library like a CD collection: albums sit on a shelf as 3D jewel cases, the now-playing disc actually spins, and every screen takes its colours from the cover art. It plays local files or streams from a Navidrome server, with offline downloads, synced lyrics and an audio effects panel. Built in SwiftUI, with a Next.js landing page, workflow assisted by Claude Code.",
+    "screenshot": "/screenshots/disque.png",
+    "link": "https://disque.stream/"
+  },
+  {
     "slug": "mashup",
     "title": "mashup",
     "year": 2025,
